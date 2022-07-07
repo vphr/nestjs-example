@@ -2,8 +2,12 @@
 /dist
 /node_modules
 
+#environmental variables
+.env.development
+.env.test
+
 #db file
-db.sqlite
+*.sqlite
 
 # Logs
 logs
